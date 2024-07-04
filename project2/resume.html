@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Maker</title>
+  <link rel="stylesheet" href="main.css">
+  </head>
+<body>
+  <div id="resume-maker">
+    <section id="data-collection">
+      <h2>Professional Details</h2>
+      <form id="user-info-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="summary">Summary:</label>
+          <textarea id="summary" name="summary" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="skills">Skills:</label>
+          <textarea id="skills" name="skills" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="education">Education:</label>
+          <textarea id="education" name="education" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="experience">Experience:</label>
+          <textarea id="experience" name="experience" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="projects">Projects:</label>
+          <textarea id="projects" name="projects" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="certifications">Certifications:</label>
+          <textarea id="certifications" name="certifications" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="languages">Languages:</label>
+          <textarea id="languages" name="languages" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="references">References:</label>
+          <textarea id="references" name="references" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="template">Template:</label>
+          <select id="template" name="template" required>
+            <option value="modern">Modern</option>
+            <option value="classic">Classic</option>
+            <option value="minimalist">Minimalist</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="format">Format:</label>
+          <select id="format" name="format" required>
+            <option value="pdf">PDF</option>
+            <option value="docx">Docx</option>
+            <option value="txt">Txt</option>
+          </select>
+        </div>
+        <button id="live-preview-btn">Live Preview</button>
+        <button id="submit-btn">Create Resume</button>
+      </form>
+    </section>
+    <section id="live-preview">
+      <h2>Live Preview</h2>
+      <div id="live-preview-container"></div>
+    </section>
+  </div>
+</body>
+</html>
+

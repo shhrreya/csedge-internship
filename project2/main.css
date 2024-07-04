@@ -1,0 +1,51 @@
+body {
+    background-image: url(resume.png);
+    background-size: cover;
+
+    font-family: Arial, sans-serif;
+  }
+
+  #resume-maker {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+  }
+
+  #data-collection form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #live-preview {
+    margin-top: 30px;
+  }
